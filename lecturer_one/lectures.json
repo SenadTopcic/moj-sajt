@@ -1,0 +1,14 @@
+[
+    {
+        "title": "TEst title ",
+        "youtubeLink": "https://www.youtube.com/watch?v=OjyMnjCnxGM&t=1734s",
+        "description": "Sura El Bekare sa prevodom na bosanski jezik. Objavljena je u Medini i ima 286 ajeta.",
+        "pdfLink": "./lectures/lecture1.pdf"
+    },
+    {
+        "title": "Surah el bekara",
+        "youtubeLink": "https://www.youtube.com/watch?v=OjyMnjCnxGM&t=1734s",
+        "description": "Sura El Bekare sa prevodom na bosanski jezik. Objavljena je u Medini i ima 286 ajeta.",
+        "pdfLink": "./lectures/lecture1.pdf"
+    }
+]

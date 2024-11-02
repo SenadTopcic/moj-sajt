@@ -1,0 +1,320 @@
+/* Variables */
+:root {
+    --background-color: black;
+    --text-color: whitesmoke;
+    --gold-color: #FFD700;
+}
+
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+p, h1, h2, h3, h4, h5 {
+    color: var(--text-color);
+}
+
+/* Navbar Styles */
+.navbar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar.sticky {
+    background: rgba(0, 0, 0, 0.8);
+    transition: background 0.3s;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: var(--gold-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo svg {
+    height: 50px;
+}
+
+/* Hamburger Menu */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background-color: var(--gold-color);
+    margin: 4px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .navbar.active .nav-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .navbar.active .nav-links li {
+        margin: 15px 0;
+        text-align: center;
+    }
+}
+
+/* Hero Section */
+.hero {
+    background: url('../images/quran-7622609_1920.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: var(--gold-color);
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    display: block;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.hero-content button {
+    padding: 12px 24px;
+    color: var(--gold-color);
+    background: transparent;
+    border: 2px solid var(--gold-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hero-content button:hover {
+    background: var(--gold-color);
+    color: white;
+}
+
+/* About Section */
+.about-instructors {
+    padding: 60px 20px; /* Added side padding for small screens */
+    background: var(--background-color);
+    text-align: center; /* Center text in the section */
+}
+
+.about-instructors h1 {
+    font-size: 2.5rem; /* Adjust size for a modern feel */
+    color: var(--gold-color);
+    margin-bottom: 40px; /* Space below the title */
+}
+
+/* Instructor Cards */
+.instructor-cards {
+    display: flex;
+    justify-content: center; /* Center cards */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    gap: 20px; /* Space between cards */
+}
+
+/* Individual Instructor Card */
+.instructor-card {
+    background: #fff; /* White background for modern look */
+    border-radius: 15px; /* Smooth rounded corners */
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    max-width: 300px; /* Limit card width */
+    text-align: center; /* Center text */
+    flex: 1 1 250px; /* Allow flexible growth and shrinkage */
+}
+
+/* Card Image */
+.instructor-card img.instructor-image {
+    width: 100px; /* Slightly larger circular images */
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px; /* Space below image */
+}
+
+/* Card Title */
+.instructor-card h3 {
+    font-size: 1.8rem; /* Larger font size */
+    margin: 10px 0; /* Space around title */
+    color: var(--background-color); /* Use background color for a modern touch */
+}
+
+/* Card Bio */
+.instructor-bio {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Card Hover Effect */
+.instructor-card:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Full Bio */
+.full-bio {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .about-instructors h1 {
+        font-size: 2rem; /* Adjust title size for mobile */
+    }
+
+    .instructor-card {
+        max-width: 90%; /* Allow cards to take more space on mobile */
+        margin: 10px 0; /* Adjust margin */
+    }
+
+    .instructor-card img.instructor-image {
+        width: 80px; /* Adjust image size for mobile */
+        height: 80px;
+    }
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center the image */
+    display: block;
+}
+
+
+/* Hero Content Animations */
+.animated-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFD700;
+    display: inline-block;
+    animation: assembleText 3s ease forwards;
+    letter-spacing: 2px;
+}
+/* Animation Keyframes */
+
+
+@keyframes assembleText {
+    0% {
+        opacity: 0;
+        transform: scale(0.2);
+        filter: blur(10px);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(1.2);
+        filter: blur(5px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem; /* Adjust title size for mobile */
+    }
+
+    .hero-content p {
+        font-size: 1rem; /* Adjust paragraph size for mobile */
+    }
+}
+

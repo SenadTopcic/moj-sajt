@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Predavač 1",
+        "shortBio": "Kratka biografija predavača 1. Klikni za više informacija.",
+        "fullBio": "Ovo je detaljna biografija predavača 1.",
+        "targetPage": "./lecturer_one/lecturer_one.html",
+        "image": "./images/avatar-3814049.svg" 
+    },
+    {
+        "name": "Predavač 2",
+        "shortBio": "Kratka biografija predavača 2. Klikni za više informacija.",
+        "fullBio": "Ovo je detaljna biografija predavača 2.",
+        "targetPage": "./lecturer_two/lecturer_two.html",
+        "image": "./images/avatar-3814049.svg" 
+    }
+]

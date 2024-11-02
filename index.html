@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <!-- Left Links (Desktop) -->
+                <ul class="nav-links left">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+
+                <!-- Logo in the Center -->
+                <div class="logo">
+                    <svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="48" stroke="#FFD700" stroke-width="4" fill="none"/>
+                        <text x="50%" y="50%" text-anchor="middle" fill="#FFD700" font-size="24" font-family="Arial, sans-serif" dy=".3em">
+                            LOGO
+                        </text>
+                    </svg>
+                </div>
+
+                <!-- Right Links (Desktop) -->
+                <ul class="nav-links right">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <!-- Hamburger Menu Icon (Mobile) -->
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="./images/bismillah-910299.svg" alt="Vector illustration" class="hero-image animated-text">
+            <h1 class="animated-text">خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ</h1>
+            <p>Read, ˹O Prophet,˺ in the Name of your Lord Who created humans from a clinging clot.</p>
+            <button id="explore-button">Explore</button>
+        </div>
+    </section>
+
+    <!-- About Instructors -->
+    <section id="about-instructors" class="about-instructors">
+        <div class="container about-instructors__container">
+            <h1>Lecturer</h1>
+            <div id="lecturer" class="instructor-cards">
+                <!-- Instructor cards will be populated here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
