@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/moj-sajt/static/css/main.2ac6c7ae.css",
+    "main.js": "/moj-sajt/static/js/main.744b2eb8.js",
+    "static/css/153.d5f284ce.chunk.css": "/moj-sajt/static/css/153.d5f284ce.chunk.css",
+    "static/js/153.86e478b8.chunk.js": "/moj-sajt/static/js/153.86e478b8.chunk.js",
+    "static/css/648.d5f284ce.chunk.css": "/moj-sajt/static/css/648.d5f284ce.chunk.css",
+    "static/js/648.96b07e26.chunk.js": "/moj-sajt/static/js/648.96b07e26.chunk.js",
+    "static/css/531.d5f284ce.chunk.css": "/moj-sajt/static/css/531.d5f284ce.chunk.css",
+    "static/js/531.22d927b4.chunk.js": "/moj-sajt/static/js/531.22d927b4.chunk.js",
+    "static/css/188.d5f284ce.chunk.css": "/moj-sajt/static/css/188.d5f284ce.chunk.css",
+    "static/js/188.3f0be9ec.chunk.js": "/moj-sajt/static/js/188.3f0be9ec.chunk.js",
+    "static/media/quran.jpg": "/moj-sajt/static/media/quran.d0f71016afde1c389c86.jpg",
+    "static/media/bismillah-910299.svg": "/moj-sajt/static/media/bismillah-910299.f82623ca967266d20ef175b7ecdbab81.svg",
+    "static/media/Logo1.svg": "/moj-sajt/static/media/Logo1.ae0aa1adaa96e1ad410ccafd70797b7c.svg",
+    "static/media/avatar2.svg": "/moj-sajt/static/media/avatar2.7d55d8762e47f991d9f6.svg",
+    "static/media/avatar.svg": "/moj-sajt/static/media/avatar.abec67634fd617416616.svg",
+    "index.html": "/moj-sajt/index.html",
+    "main.2ac6c7ae.css.map": "/moj-sajt/static/css/main.2ac6c7ae.css.map",
+    "main.744b2eb8.js.map": "/moj-sajt/static/js/main.744b2eb8.js.map",
+    "153.d5f284ce.chunk.css.map": "/moj-sajt/static/css/153.d5f284ce.chunk.css.map",
+    "153.86e478b8.chunk.js.map": "/moj-sajt/static/js/153.86e478b8.chunk.js.map",
+    "648.d5f284ce.chunk.css.map": "/moj-sajt/static/css/648.d5f284ce.chunk.css.map",
+    "648.96b07e26.chunk.js.map": "/moj-sajt/static/js/648.96b07e26.chunk.js.map",
+    "531.d5f284ce.chunk.css.map": "/moj-sajt/static/css/531.d5f284ce.chunk.css.map",
+    "531.22d927b4.chunk.js.map": "/moj-sajt/static/js/531.22d927b4.chunk.js.map",
+    "188.d5f284ce.chunk.css.map": "/moj-sajt/static/css/188.d5f284ce.chunk.css.map",
+    "188.3f0be9ec.chunk.js.map": "/moj-sajt/static/js/188.3f0be9ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ac6c7ae.css",
+    "static/js/main.744b2eb8.js"
+  ]
+}
